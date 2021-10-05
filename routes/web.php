@@ -108,3 +108,7 @@ Route::get('', [detail::class, '']);
 Route::get('profile/index', function(){
     return view('profile.index');
 });
+
+Route::get('profile/album', function(){
+    return view('profile.album');
+});
