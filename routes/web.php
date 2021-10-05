@@ -103,7 +103,7 @@ Route::get('profile', function(){
 //     return view('profile.index', ['nama_user => ']);
 // });
 
-Route::get('', [detail::class, '']);
+
 
 Route::get('profile/index', function(){
     return view('profile.index');
