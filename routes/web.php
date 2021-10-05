@@ -92,3 +92,19 @@ Route::get('data-siswi', [DataSiswaController::class, 'datasiswi']);
 Route::get('nama/{nama?}', [DataSiswaController::class, 'nama']);
 
 Route::resource('user', UserController::class);
+
+
+Route::get('profile', function(){
+    return view('profile.index');
+});
+
+
+// Route::get('profile/{nama}', function($nama){
+//     return view('profile.index', ['nama_user => ']);
+// });
+
+Route::get('', [detail::class, '']);
+
+Route::get('profile/index', function(){
+    return view('profile.index');
+});
