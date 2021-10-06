@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+{{-- <!DOCTYPE html>
 <html lang="en">
     <head>
         <meta charset="UTF-8">
@@ -41,5 +41,8 @@
 
         {{-- comment : sorot atau block lalu tekan ctrl dan / --}}
 
-    </body>
-</html>
+    {{-- </body>
+</html> --}}
+
+
+

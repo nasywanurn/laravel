@@ -14,6 +14,7 @@
         <link href="{{asset('css/styles.css')}}" rel="stylesheet" />
     </head>
     <body>
+        @include('include.nav')
         <!-- Responsive navbar-->
         {{-- <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
             <div class="container px-lg-5">
@@ -27,7 +28,7 @@
                     </ul>
                 </div>
             </div>
-        </nav>
+        </nav> --}}
         <!-- Header-->
         <header class="py-5">
             <div class="container px-lg-5">
@@ -45,6 +46,7 @@
             <div class="container px-lg-5">
                 <!-- Page Features-->
                 <div class="row gx-lg-5">
+                    {{-- @for ($i = 0; $i <= 10; $i++)
                     <div class="col-lg-6 col-xxl-4 mb-5">
                         <div class="card bg-light border-0 h-100">
                             <div class="card-body text-center p-4 p-lg-5 pt-0 pt-lg-0">
@@ -54,7 +56,17 @@
                             </div>
                         </div>
                     </div>
-                    <div class="col-lg-6 col-xxl-4 mb-5">
+                    @endfor --}}
+                    {{-- <div class="col-lg-6 col-xxl-4 mb-5">
+                        <div class="card bg-light border-0 h-100">
+                            <div class="card-body text-center p-4 p-lg-5 pt-0 pt-lg-0">
+                                <div class="feature bg-primary bg-gradient text-white rounded-3 mb-4 mt-n4"><i class="bi bi-collection"></i></div>
+                                <h2 class="fs-4 fw-bold">Fresh new layout</h2>
+                                <p class="mb-0">With Bootstrap 5, we've created a fresh new layout for this template!</p>
+                            </div>
+                        </div>
+                    </div>
+                   <div class="col-lg-6 col-xxl-4 mb-5">
                         <div class="card bg-light border-0 h-100">
                             <div class="card-body text-center p-4 p-lg-5 pt-0 pt-lg-0">
                                 <div class="feature bg-primary bg-gradient text-white rounded-3 mb-4 mt-n4"><i class="bi bi-cloud-download"></i></div>
@@ -102,10 +114,11 @@
                 </div>
             </div>
         </section> --}}
+        @include('include.footer')
         <!-- Footer-->
-        <footer class="py-5 bg-dark">
+        {{-- <footer class="py-5 bg-dark">
             <div class="container"><p class="m-0 text-center text-white">Copyright &copy; Your Website 2021</p></div>
-        </footer>
+        </footer> --}}
         <!-- Bootstrap core JS-->
         <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/js/bootstrap.bundle.min.js"></script>
         <!-- Core theme JS-->

@@ -19,30 +19,40 @@ use app\Http\Controllers\DataSiswaController;
 //     return view('welcome');
 // });
 
-Route::get('/', function(){
-    return 'hallo pak';
-});
+Route::get('/', function () {
+    return view('index');
+})->name('album');
+
+// Route::get('/', function () {
+//     return view('artis');
+// })->name('artis');
 
 
-Route::get('/hallo', function(){
-    return 'hallo';
-});
 
-Route::get('hello', function(){
-    return 'hello ';
-});
+// Route::get('/', function(){
+//     return 'hallo';
+// });
 
-Route::get('hi', function(){
-    return 'hi';
-});
 
-Route::get('hai', function(){
-    return 'hai';
-});
+// Route::get('/hallo', function(){
+//     return 'hallo';
+// });
 
-Route::get('hai', function(){
-    return 'hallo';
-});
+// Route::get('hello', function(){
+//     return 'hello ';
+// });
+
+// Route::get('hi', function(){
+//     return 'hi';
+// });
+
+// Route::get('hai', function(){
+//     return 'hai';
+// });
+
+// Route::get('hai', function(){
+//     return 'hallo';
+// });
 
 //parameter wajib
 Route::get('/nama-framework/{nama}', function($nama){

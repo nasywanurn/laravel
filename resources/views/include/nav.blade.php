@@ -29,7 +29,7 @@
             </div>
         </nav>
         <!-- Header-->
-        <header class="py-5">
+        {{-- <header class="py-5">
             <div class="container px-lg-5">
                 <div class="p-4 p-lg-5 bg-light rounded-3 text-center">
                     <div class="m-4 m-lg-5">
@@ -39,9 +39,9 @@
                     </div>
                 </div>
             </div>
-        </header>
+        </header> --}}
         <!-- Page Content-->
-        <section class="pt-4">
+        {{-- <section class="pt-4">
             <div class="container px-lg-5">
                 <!-- Page Features-->
                 <div class="row gx-lg-5">
@@ -105,7 +105,7 @@
         <!-- Footer-->
         <footer class="py-5 bg-dark">
             <div class="container"><p class="m-0 text-center text-white">Copyright &copy; Your Website 2021</p></div>
-        </footer>
+        </footer> --}}
         <!-- Bootstrap core JS-->
         <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/js/bootstrap.bundle.min.js"></script>
         <!-- Core theme JS-->
